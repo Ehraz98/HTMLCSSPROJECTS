@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url(./assets/bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.navbar {
+    display: flex;
+    background: black;
+    height: 16vh;
+    align-items: center;
+}
+
+.navbar div:first-child {
+    padding: 0 3rem;
+}
+
+.navbar div img {
+    width: 80px;
+}
+
+.line {
+    border-left: 2px solid white;
+    height: 8vh;
+}
+
+.list {
+    display: flex;
+}
+
+.list-item {
+    color: #fff;
+    list-style-type: none;
+    padding: 0 2.5rem;
+}
+
+.navbar div:last-child {
+    padding: 0 3rem;
+    margin-left: 12rem;
+}
+
+.button-small {
+    padding: 5px 20px;
+    background: #c94bffc4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.hero-heading {
+    bottom: 14rem;
+    position: relative;
+    font-size: 4rem;
+    text-align: center;
+    /* color: #fff; */
+}
+
+.hero-description {
+    position: relative;
+    bottom: 13.5rem;
+    text-align: center;
+    /* color: #fff; */
+    font-size: 1.5rem;
+}
+
+.button-large {
+    position: relative;
+    bottom: 12rem;
+    text-align: center;
+    left: 30%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #c94bffc4;
+    color: #fff;
+    border: none;
+}
