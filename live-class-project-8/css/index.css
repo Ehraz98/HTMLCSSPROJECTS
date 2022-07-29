@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav img:first-child{
+    width: 9%;
+    margin-left: 5rem;
+}
+
+.nav-items{
+    display: flex;
+    padding: 0 20rem 0 10rem;
+}
+
+.nav-item{
+    padding: 0 1.5rem;
+}
+
+.signin-btn{
+    background: linear-gradient(to right,#770cf8a1, #e225b5bd);
+    border-radius: 1em;
+    padding: 0.2em 1em;
+    color: #fff;
+    border: none;
+}
+
+.intro-section{
+    display: flex;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section h1{
+    position: relative;
+    bottom: 3rem;
+    font-size: 4rem;
+    color: #2d2da9;
+}
+
+.left-section h4{
+    width: 55%;
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  padding: 0 0 4rem 0;
+}
+
+.learn-more-btn{
+    padding: 1rem 2rem;
+    background: linear-gradient(to right,#770cf8a1, #e225b5bd);
+    border-radius: 2em;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bolder;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+
+.imgs-div{
+    width: 60%;
+}
+
+.imgs-div img:first-child{
+    position: relative;
+    bottom: 4rem;
+    left: 10rem;
+}
+
+.imgs-div img:last-child{
+    width: 83%;
+    position: relative;
+    left: 2rem;
+}
