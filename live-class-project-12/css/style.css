@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #758283;
+}
+
+nav {
+    height: 75px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 12px;
+}
+
+.logo img {
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    margin-left: 300px;
+}
+
+li {
+    list-style-type: none;
+    color: #fff;
+    margin: 0 30px;
+}
+
+.letstalk button {
+    padding: 5px 30px;
+    background: #758283;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/* Business solution */
+
+#businesssolution {
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    height: 550px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.meetingwrapper {
+    width: 40%;
+}
+
+.meeting {
+    width: 100%;
+}
+
+.businesswrapper {
+    color: #fff;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.businesswrapper h3 {
+    font-size: 3em;
+}
+
+.businesswrapper p {
+    font-size: 1.4em;
+}
+
+.emailwrapper {
+    position: relative;
+}
+
+.emailimg {
+    width: 4%;
+    left: 25px;
+    top: 25px;
+    position: absolute;
+}
+
+.emailwrapper input {
+    padding: 25px 150px 25px 50px;
+}
+
+.emailwrapper button {
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    padding: 15px 30px;
+    color: #fff;
+    border: none;
+    background: #217114a1;
+}
+
+/* Project Metrics */
+
+#projectmetrics {
+    height: 300px;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.projectheading {
+    width: 35%;
+}
+
+.projectheading h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.numbers {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.numbers h6 {
+    font-size: 2em;
+}
+
+.names {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin-bottom: 125px;
+}
+
+.names h6 {
+    font-size: 1.1em;
+}
+
+#plainimage {
+    width: 75%;
+    height: 657px;
+    margin: 0 auto;
+}
+
+#plainimage img {
+    width: 100%;
+}
+
+#plaintext {
+    height: 250px;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#plaintext h3 {
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Image text 1 */
+
+#imagetext {
+    display: flex;
+    margin: 0 auto;
+    width: 75%;
+    height: 500px;
+    margin: 70px auto;
+    justify-content: space-around;
+}
+
+.textwrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.advertisement {
+    height: 100%;
+}
+
+.imagewrapper {
+    color: #fff;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.textwrapper h3 {
+    font-size: 2.7em;
+    margin-bottom: 25px;
+}
+
+.textwrapper p {
+    font-size: 1.4em;
+    margin-bottom: 25px;
+}
+
+.textwrapper button {
+    padding: 15px 30px;
+    color: #fff;
+    border: none;
+    background: #217114a1;
+    width: 30%;
+}
+
+/* team text */
+
+#teams-text {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 70px auto;
+}
+
+#teams-text h3 {
+    width: 20%;
+    font-size: 2rem;
+}
+
+#teams-text p {
+    width: 50%;
+    font-size: 1.6em;
+}
+
+/* team members */
+
+#team-members {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 70px auto;
+}
+
+#team-members img,
+#team-members p {
+    width: 90%;
+}
+
+.first-member img,
+.first-member p {
+    width: 97% !important;
+}
+
+.third-member,
+.second-member {
+    margin-left: 15%;
+}
+
+/* See more button */
+
+#see-more {
+    width: 10%;
+    margin: 70px auto;
+}
+
+#see-more button {
+    padding: 15px 50px;
+    color: #fff;
+    border: none;
+    background: #217114a1;
+}
+
+/* Footer */
+
+footer {
+    background-color: #36457b;
+}
+
+.footer {
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.social-links img {
+    transform: scale(0.73);
+}
+
+.start {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.mid {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.h_line {
+    width: 100%;
+    height: 1px;
+    background: gray;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+ }
+
+ .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+ }
