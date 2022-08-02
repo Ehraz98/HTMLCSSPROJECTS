@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #0000ffa8;
+}
+
+nav{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    height: 80px;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+
+.logo img{
+    width: 65%;
+}
+
+ul{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 27%;
+}
+
+ul li{
+    list-style-type: none;
+    font-size: 1.4rem;
+    margin: 0 30px;
+    color: #fff;
+}
+
+ul li:first-child{
+    color: blue;
+    width: 50%;
+    border-bottom: 2px solid gray;
+}
+
+.freetrial{
+    position: absolute;
+    bottom: 0;
+    right: 7%;
+}
+
+.freetrial button{
+    padding: 12px 50px;
+    color: #fff;
+    background: #56b7dcd6;
+    border: none;
+    font-size: 1.2rem;
+}
+
+/* Codext SAAS */
+
+.codext {
+    display: flex;
+    margin: 0 auto;
+    width: 75%;
+    height: 550px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.text-wrapper {
+    color: #fff;
+    width: 25%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-wrapper h3{
+    font-size: 2.7em;
+    margin-bottom: 40px;
+}
+
+.image-wrapper{
+    width: 50%;
+    height: 80%;
+}
+
+
+.saasimg{
+    width: 100%;
+}
+
+/* saasadvantage */
+
+#saasadvantage{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    height: 550px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.saasarchimg{
+    width: 40%;
+}
+
+.saasarchimg image{
+    width: 100%;
+}
+
+.advantages{
+    width: 40%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+
+.advantages h3{
+    font-size: 1.5rem;
+}
+
+/* bestfeature */
+
+#bestfeature{
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#bestfeature h3{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+
+/* footer */
+
+footer{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 280px;
+    margin-bottom: 10px;
+}
+
+.card{
+    border: 2px solid #CAD5E2;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+.card img {
+    width: 15%;
+    height: 60px;
+    width: 85px;
+    border-radius: 50%;
+    transform: scale(1.5);
+    padding: 16px;
+    background: antiquewhite;
+}
+
+.imgcardwrapper{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hpwrapper{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hpwrapper p{
+    text-align: center;
+}
+
+.card:first-child .hpwrapper{
+    border-radius: 10px;
+    background-color: #5A20CB;
+    color: white;
+}
