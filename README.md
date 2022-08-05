@@ -16,4 +16,4 @@
 
 #### Screenshot
 
-![Desktop](./live-class-project-9/live-class-project-9/Project9.jpeg)
+![Desktop](./live-class-project-9/Project9.jpeg)
