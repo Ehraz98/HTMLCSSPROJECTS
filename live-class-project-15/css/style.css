@@ -431,3 +431,67 @@ footer {
   padding-right: 40px;
   transform: scale(0.8);
 }
+
+@media screen and (max-width: 1108px) {
+  header{
+    height: 700px;
+  }
+  .hero-section {
+    flex-direction: column;
+    position: relative;
+  }
+  .user-picture {
+    position: absolute;
+    height: 360px;
+    width: 587px;
+    left: 50%;
+    bottom: -325px;
+  }
+  .about-me-container{
+    position: absolute;
+    top:70%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  nav ul{
+    display: none;
+  }
+  .logo{
+    margin: 0 auto;
+  }
+  .user-picture {
+    left: -20%;
+  }
+  footer{
+    display: flex;
+    justify-content: space-between;
+  }
+  .feature-cards {
+    width: 90%;
+  }
+  .feature-card {
+    width: 100%;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+  #exp{
+    margin-top: 20px;
+    background: linear-gradient(to left, #0D0D0D 100%, #242B2E 100%);
+  }
+  .exp-center-wrapper {
+    width: 50%;
+  }
+  #contact-btn {
+    padding: 8px;
+  }
+
+  footer{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
