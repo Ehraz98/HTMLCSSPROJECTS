@@ -160,3 +160,32 @@ main{
     left: 69%;
     bottom: 4.4rem;
   }
+
+
+  @media screen and (max-width:900px) {
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav, .circle-2::after, .circle::after{
+        display: none;
+    }
+
+    .logo{
+        margin: 0rem;
+    }
+
+    .first-section{
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .second-section{
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+    }
+
+  }
