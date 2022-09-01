@@ -94,3 +94,30 @@ nav img:first-child{
     position: relative;
     left: 2rem;
 }
+
+@media screen and (max-width: 1150px) {
+    .main-div{
+        height: 150vh;
+    }
+    .nav-items{
+        display: none;
+    }
+    nav{
+        justify-content: space-around;
+    }
+
+    .intro-section{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .left-section{
+        height: auto;
+        padding-top: 50px;
+        width: 80%;
+    }
+
+    .intro-section{
+        height: auto;
+    }
+}
