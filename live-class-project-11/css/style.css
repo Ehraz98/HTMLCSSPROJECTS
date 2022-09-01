@@ -29,6 +29,10 @@ nav {
     filter: opacity(0.6) drop-shadow(0 0 0 blue);
 }
 
+.hide{
+    display: none;
+}
+
 nav ul {
     display: flex;
 }
@@ -405,4 +409,117 @@ footer ul li{
 .Social-Media img{
     width: 30px;
     margin-top:10%;
+}
+
+@media screen and (max-width:900px) {
+    nav ul{
+        display: none;
+    }
+    .hide{
+        display: inline-block;
+    }
+
+    .plans
+    {
+        flex-direction: column;
+    }
+    
+    .plan{
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+
+    .register{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:700px) {
+    nav{
+        width: 150%;
+    }
+
+    .first-main{
+        flex-direction: column;
+        width: 150%;
+    }
+
+    .left{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .right{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main-img{
+        width: 100%;
+    }
+
+    .second-main{
+        flex-direction: column;
+        width: 200%;
+    }
+
+    .third-main{
+        flex-direction: column;
+        width: 200%;
+    }
+
+    .fourth-main{
+        flex-direction: column;
+        width: 200%;
+    }
+
+    .fifth-main{
+        flex-direction: column;
+        width: 200%;
+    }
+
+    .reviews{
+        grid-template-columns: 2fr;
+    }
+    
+    .register{
+        margin-top: 50%;
+    }
+
+    footer{
+        flex-direction: column;
+        margin-top: 70%;
+    }
+
+    footer div{
+        margin-top: 10%;
+    }
+
+    .Social-Media{
+        margin-top: 5%;
+    }
+
+    .Social-Media h3,.Social-Media img,footer ul{
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    nav{
+        width: 300%;
+    }
+
+    .plans {
+        width: 200%;
+        margin: 0 auto;
+    }
+
+    .register {
+        margin-top: 100%;
+        width: 200%;
+    }
+
+    footer{
+        margin-top: 100%;
+    }
 }
