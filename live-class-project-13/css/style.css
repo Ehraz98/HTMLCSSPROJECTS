@@ -192,3 +192,103 @@ footer{
     background-color: #5A20CB;
     color: white;
 }
+
+
+@media screen and (max-width:1300px) {
+    ul{
+        display: none;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .text-wrapper h3{
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+    .text-wrapper {
+        justify-content: flex-end;
+    }
+
+    .codext {
+        display: flex;
+        margin: 0 auto;
+        width: 75%;
+        height: 300px;
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+
+    .advantages h3{
+        font-size: 0.8rem;
+    }
+
+    .advantages p{
+        font-size: 0.6rem;
+    }
+
+    .advantages{
+        width: 40%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    #saasadvantage{
+        height: 300px;
+    }
+
+    .card img{
+        transform: scale(1);   
+    }
+
+    .hpwrapper h3{
+        font-size: 0.9rem;
+    }
+
+    .hpwrapper p{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .logo{
+        display: none;
+    }
+    .text-wrapper p{
+        display: none;
+    }
+    .text-wrapper {
+        justify-content: center;
+    }
+    .codext {
+        display: flex;
+        margin: 0 auto;
+        width: 75%;
+        height: 150px;
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+    .freetrial{
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        transform: translate(50%, 0);
+    }
+
+    .card img {
+        height: 60px;
+        width: 43px;
+        border-radius: 50%;
+        padding: 10px;
+        background: antiquewhite;
+      }
+
+      .hpwrapper h3{
+        font-size: 0.7rem;
+    }
+
+    .hpwrapper p{
+        font-size: 0.6rem;
+    }
+}
