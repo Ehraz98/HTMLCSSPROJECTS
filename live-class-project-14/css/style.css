@@ -68,6 +68,7 @@ nav ul li:first-child {
     height: 38vh;
     display: flex;
     margin-bottom: 5vh;
+    position: relative;
 }
 
 .creativity {
@@ -93,13 +94,9 @@ nav ul li:first-child {
 
 .isouringerident {
     width: 34%;
-    position: relative;
-}
-
-.wrapperingerident {
     position: absolute;
-    left: 0;
-    bottom: 4%;
+    left:55%;
+    bottom: 5%;
 }
 
 .isouringerident span {
@@ -109,8 +106,10 @@ nav ul li:first-child {
 }
 
 .socialicons {
-    position: relative;
-    padding: 15px;
+    position: absolute;
+    height: 25vh;
+    right: 10%;
+    top: 5%;
 }
 
 .socialicons ul {
@@ -225,4 +224,93 @@ nav ul li:first-child {
     position: absolute;
     top: 35%;
     left: 15%;
+}
+
+@media screen and (max-width:1300px) {
+    .hr{
+        display: none;
+    }
+
+    nav ul {
+        left: 37%;
+        bottom: 10%;
+    }
+
+    .creativity {
+        width: 20%;
+    }
+
+    .creativity h1 {
+        font-size: 6rem;
+    }
+
+    #checkpackagebtn {
+        margin-left: 69%;
+    }
+    
+    #checkpackagebtn button {
+        padding: 15px 15px 15px 30px;
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width:850px) {
+    nav ul li {
+        margin-right: 16%;
+    }
+
+    .creativity h1 {
+        font-size: 4rem;
+    }
+
+    .isouringerident {
+        left:65%;
+    }
+
+    .isouringerident span {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .socialicons {
+        right: 0;
+    }
+
+
+    #checkpackagebtn {
+        margin-left: 65%;
+    }
+    #checkpackagebtn button {
+        padding: 5px 5px;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:500px)
+{
+    nav ul  {
+        display: none;
+    }
+
+    .creativity h1 {
+        font-size: 3rem;
+    }
+
+    .isouringerident {
+        left:55%;
+    }
+
+    .isouringerident span {
+        color: #858585;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    #checkpackagebtn {
+        margin-left: 50%;
+    }
+
+    .options{
+        display: none;
+    }
 }
